@@ -3,7 +3,14 @@ plugins {
     id 'kotlin-android'
 }
 
+
 android {
+
+    buildFeatures{
+        databinding = true
+        viewBinding = true
+    }
+
     compileSdk 31
 
     defaultConfig {
